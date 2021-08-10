@@ -1,0 +1,44 @@
+.header {
+  width: 100%;
+  cursor: pointer;
+  position: fixed;
+  display: flex;
+  justify-content: space-between;
+  text-transform: uppercase;
+  background-color: transparent;
+  font-family: 'Montserrat', sans-serif, 'Roboto';
+  font-size: 30px;
+  padding-bottom: 15px;
+  box-shadow: 0px 1px 5px black;
+  color: Red;
+  z-index: 100;
+}
+
+h1 {
+  margin-left: 20px;
+}
+ul {
+  display: flex;
+  justify-content: space-around;
+}
+li {
+  list-style-type: none;
+  margin-right: 10px;
+}
+
+.iconsize {
+  height: 70px;
+  width: 70px;
+  text-align: center;
+}
+p {
+  margin-top: 15px;
+  font-weight: bold;
+}
+
+@media (max-width: 1000px) {
+  .header {
+    padding-top: 15px;
+    font-size: 6.4vw;
+  }
+}
